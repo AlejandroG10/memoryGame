@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="estilos.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory game</title>
+    <script src="jquery.js"></script>
+    <script src="funciones.js"></script>
+    <script src="jugar.js"></script>
+</head>
+
+<body>
+    <h1>Memory game</h1>
+    <div class="inicio">
+        <p>
+            Reglas del juego:
+            Intentar conseguir el mayor número de parejas en el menor número de intentos posible, intentando que
+            no se acabe el tiempo.
+        </p><br><br><br>
+
+        <h3>Elige la dificultad</h3>
+        <table>
+            <tr>
+                <th><button onclick="facil()">Fácil</button></th>
+                <th><button onclick="medio()">Medio</button></th>
+                <th><button onclick="dificil()">Difícil</button></th>
+            </tr>
+        </table>
+    </div>
+
+    <div class="juego">
+
+    </div>
+
+    <button onclick="volver()" id="volver" hidden>Volver</button>
+    <button onclick="reset()" id="reset" hidden>Reintentar</button>
+    <p id="contador" hidden>5:00</p>
+
+    <div id="gana" hidden>
+    </div>
+
+    <div id="pierde" hidden>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+h1{
+    text-align: center;
+}
+.inicio{
+    text-align: center;
+}
+table{
+    margin: auto;
+    border-spacing: 5px;
+}
+#volver, #reset{
+    float: right;
+    margin-left: 5px;
+}
+img:hover, button:hover{
+    cursor: pointer;
+}
+#gana, #pierde{
+    background-color: #D3D3D3;
+    border: 1px solid black;
+    width: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding: 33px;
+    min-height: 150px;
+    border-radius: 22px;
+    position: absolute;
+    left: 34%;
+    top: 30%;
+}
+#cerrar{
+    width: 15px;
+    height: 15px;
+    float: right;
+}
+#contador{
+    text-align: center;
+    font-size: 50px;
+    margin: auto;
+    max-width: 120px;
+    background-color: #b4b4b4;
+    border: 3px solid black;
+    border-radius: 20px;
+}
